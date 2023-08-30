@@ -12,5 +12,7 @@ public class Receipt {
         String hello = ScamBot.nextLine();
         System.out.println("Ok");
 
+        System.out.println("This is a change in the program :)");
+
     }
 }
