@@ -7,14 +7,8 @@ public class Receipt {
 
         Scanner ScamBot = new Scanner(System.in);
 
-        System.out.println("Hello World!");
-
-        String hello = ScamBot.nextLine();
-        System.out.println("Ok");
-
-        System.out.println("This is a change in the program :)");
-        System.out.println("This is another change in the program (:");
-        System.out.println("Test");
+        System.out.println("Welcome to Adi's Convience Store!");
+        System.out.println("")
 
     }
 }
