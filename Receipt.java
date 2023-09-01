@@ -9,6 +9,7 @@ public class Receipt {
 
         int milk = -1;
         double eggs = -1;
+        int O2 = -1;
 
         System.out.println("");
         System.out.println("Welcome to Adi's Convience Store!");
@@ -19,10 +20,15 @@ public class Receipt {
         while(milk < 0) {
             milk = orderBot.nextInt();
         }
-        
+
         System.out.print("Enter how many eggs you want (decimals allowed): ");
         while(eggs < 0) {
             eggs = orderBot.nextDouble();
+        }
+
+        System.out.print("Enter how many Liters of O2 do you want: ");
+        while(O2 < 0) {
+            O2 = orderBot.nextInt();
         }
 
 
