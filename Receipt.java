@@ -10,6 +10,7 @@ public class Receipt {
         int milk = -1;
         double eggs = -1;
         int O2 = -1;
+        int H2 = -1;
 
         System.out.println("");
         System.out.println("Welcome to Adi's Convience Store!");
@@ -26,9 +27,15 @@ public class Receipt {
             eggs = orderBot.nextDouble();
         }
 
-        System.out.print("Enter how many Liters of O2 do you want: ");
+        System.out.print("Enter how many moles (6.02 x 10^23 molecules)(1 mole of O2 is about 32 grams) of oxygen (O2) you want: ");
         while(O2 < 0) {
             O2 = orderBot.nextInt();
+        }
+
+        System.out.println("We don't sell water, so you can buy the Hydrogen individually.");
+        System.out.print("Enter how many moles (6.02 x 10^23 molecules)(1 mole of H2 is about 2 grams) of hydrogen (H2) you want: ");
+        while(H2 < 0) {
+            H2 = orderBot.nextInt();
         }
 
 
