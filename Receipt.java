@@ -5,20 +5,16 @@ public class Receipt {
     
     public static void main(String[] args) {
 
-        Scanner NameBot = new Scanner(System.in);
-        Scanner AgeBot = new Scanner(System.in);
-        
-        System.out.println("");
+        Scanner ScamBot = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
+        System.out.println("Hello World!");
 
-        String name = NameBot.nextLine();
+        String hello = ScamBot.nextLine();
+        System.out.println("Ok");
 
-        System.out.print("Now enter your age: ");
-
-        int age = AgeBot.nextInt();
-
-        System.out.println("Your name is " + name + " and you are " + age + " years old.");
+        System.out.println("This is a change in the program :)");
+        System.out.println("This is another change in the program (:");
+        System.out.println("Test");
 
     }
 }
