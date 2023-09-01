@@ -7,16 +7,24 @@ public class Receipt {
 
         Scanner orderBot = new Scanner(System.in);
 
-        int milk;
-        double eggs;
+        int milk = -1;
+        double eggs = -1;
 
+        System.out.println("");
         System.out.println("Welcome to Adi's Convience Store!");
         System.out.println("We offer a wide selection of products.");
+        System.out.println("");
 
         System.out.print("Enter how many gallons of milk you want: ");
-        milk = orderBot.nextInt();
+        while(milk < 0) {
+            milk = orderBot.nextInt();
+        }
+        
         System.out.print("Enter how many eggs you want (decimals allowed): ");
-        eggs = orderBot.nextDouble();
+        while(eggs < 0) {
+            eggs = orderBot.nextDouble();
+        }
+
 
 
         orderBot.close();
