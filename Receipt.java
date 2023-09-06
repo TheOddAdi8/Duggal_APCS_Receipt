@@ -62,6 +62,8 @@ public class Receipt {
         final double MILKPRICE = 9.99;
         final double EGGS = 0.49;
 
+        //RECEIPT
+
         clear();
         clear();
 
