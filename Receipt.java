@@ -62,7 +62,7 @@ public class Receipt {
         }
         clear();
         astPrint();
-        System.out.println
+        System.out.println("");
         
 
 
