@@ -3,12 +3,20 @@ import java.util.Scanner;
 
 public class Receipt {
     
-    static void astPrint() { //print asterisk
-        System.out.print("*");
+    static void astPrint(int astNum) { //print asterisk
+        for (int k = 0; k < astNum; k++) {
+            System.out.print("*");
+        }
       }
     
     static void clear() { //adds empty line
         System.out.println("");
+    }
+
+    static void space(int spaceNum) {
+        for (int j = 0; j < spaceNum; j++) {
+            System.out.print(" ");
+        }
     }
 
     public static void main(String[] args) {
@@ -57,13 +65,36 @@ public class Receipt {
         clear();
         clear();
 
-        for (int i = 0; i < 40; i++) {
-            astPrint();
-        }
+        astPrint(40);
+
         clear();
-        astPrint();
-        System.out.println("");
-        
+
+        astPrint(1);
+        space(38);
+        astPrint(1);
+
+        clear();
+
+        astPrint(1);
+        space(7);
+        System.out.print("Adi's Convinience Store");
+        space(8);
+        astPrint(1);
+
+        clear();
+
+        astPrint(1);
+        space(2);
+        System.out.print("Fresh food with lot's of inflation");
+        space(2);
+        astPrint(1);
+
+        clear();
+
+        astPrint(1);
+        space(38);
+        astPrint(1);
+
 
 
         orderBot.close();

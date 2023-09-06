@@ -8,7 +8,7 @@ public class test {
 
     public static void main(String[] args) {
 
-        String statement = "Adi's Convinience Store";
+        String statement = "Fresh food with lot's of inflation";
         
         int length = statement.length();
         
