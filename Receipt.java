@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Receipt {
     
+    static void astPrint() { //print asterisk
+        System.out.print("*");
+      }
+
     public static void main(String[] args) {
 
         Scanner orderBot = new Scanner(System.in);
@@ -44,8 +48,16 @@ public class Receipt {
         //Calculate payment values
 
         final double MILKPRICE = 9.99;
-        final double EGGS = 0.49
+        final double EGGS = 0.49;
 
+        System.out.println("");
+        System.out.println("");
+
+        for (int i = 0; i < 40; i++) {
+            astPrint();
+        }
+        System.out.println("");
+        astPrint();
         
 
 
