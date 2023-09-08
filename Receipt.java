@@ -19,6 +19,12 @@ public class Receipt {
         }
     }
 
+    static void period(int periodNum) {
+        for (int m = 0; m < periodNum; m++) {
+            System.out.print(".");
+        }
+    }
+
     public static void main(String[] args) {
 
         Scanner orderBot = new Scanner(System.in);
@@ -79,7 +85,7 @@ public class Receipt {
 
         astPrint(1);
         space(7);
-        System.out.print("Adi's Convinience Store");
+        System.out.print("ADI'S CONVENIENCE STORE");
         space(8);
         astPrint(1);
 
@@ -87,7 +93,7 @@ public class Receipt {
 
         astPrint(1);
         space(2);
-        System.out.print("Fresh food with lot's of inflation");
+        System.out.print("FRESH FOOD WITH LOT'S OF INFLATION");
         space(2);
         astPrint(1);
 
@@ -97,7 +103,14 @@ public class Receipt {
         space(38);
         astPrint(1);
 
+        clear();
 
+        astPrint(1);
+        space(2);
+        for (int l = 0; l < milk; l++) {
+            System.out.print()
+        }
+        astPrint(1);
 
         orderBot.close();
 
